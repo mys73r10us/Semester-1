@@ -1,0 +1,3 @@
+{'Nama': 'NME', 'Alamat': 'po', 'No HP': '098', 'Nama Penerima': 'SOSO', 'No HP Penerima': '890', 'Alamat tujuan': 'op'}
+{'Nama': 'SOSO', 'Alamat': 'op', 'No HP': '890', 'Nama Penerima': 'NME', 'No HP Penerima': '098', 'Alamat tujuan': 'po'}
+{'Nama': 'ulik', 'Alamat': 'bkl', 'No HP': '111', 'Nama Penerima': 'syd', 'No HP Penerima': '321', 'Alamat tujuan': 'pku'}
