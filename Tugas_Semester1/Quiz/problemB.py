@@ -1,5 +1,0 @@
-N=input()
-A,U=input().split()
-print('Name:',N)
-print('NIS:',A)
-print('Age:',U)
