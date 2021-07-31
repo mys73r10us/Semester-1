@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.background-tambahan{
+	height: 50px;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	background-color:#dbdbdb;
+	margin-right: 360px;
+	margin-top: -5px;
+	
+	padding: 5px 395px;
+}
+.background-tambahan h1{
+	display: none;
+}
+.logo img{
+	width: 50px;
+}
+
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+.box p{
+	text-align: left;
+	color: lightgrey;
+	font-family: 'Ubuntu Mono';
+	margin-bottom: 25px;
+}
+.button-random{
+    background: #ffcc00;
+    width: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 30px;
+    border-radius: 10px;
+	cursor: pointer;
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.3);
+}	
+.main-challenge-HdC{
+	height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+	margin: 0 auto;
+	text-align: center;
+	overflow-y: hidden;
+}
+.hint{
+	margin : 20px auto;
+	width: 450px;
+	
+}
+.hint-button{
+	border: 1px solid black;
+	border: none;
+	border-radius: 5px;
+	padding : 10px;
+	background-color: rgba(70, 235, 33, .6) ;
+	cursor: pointer;
+}
+.hint-text{
+	margin: 20px auto;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+	font-family: 'ubuntu mono';
+}
+.text{
+	margin: 70px 0px;
+	
+}
+.main-challenge-HdC h1{
+	color: lightblack;
+	font-family: 'ubuntu mono';
+	text-shadow: 2px 2px 4px #aaa;
+}
+.box{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .6);
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	border: none;
+}
+input[type=text], select {
+	width: 100%;
+	padding: 10px 10px;
+	size: 500px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.text span {
+	content: 263A;
+	font-size: 70px;
+	color: black;
+	text-shadow: 1px 1px 10px black;
+}
+
+
+
+.spec-button a {
+	text-decoration: none;
+	background-color: white;
+	color: white;
+}
+
+.spec-button a::before {
+	content: 'check the console you\'ll find the key word to acces this ==> SW4gb3JkZXIgdG8gZ2V0IHRoZSBjb2RlLCBtYWtlIHJlcXVlc3QgdG8gL0IvSS9OL1UvUy9JL0EvTi8yLzMvY29kZTEuaHRtbA==';
+	background-image: url('found1.png');
+	background-position: 0 30%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100vh;
+	left: 0;
+	position: absolute;
+	bottom: 0vh;
+	width: 100vw;
+	transform: translateY(100%);
+	transition: transform .3s;
+}
+
+.spec-button a:hover::before {
+	transform: translateY(0px);
+}
+
+.box button{
+	margin-top: 5px;
+	cursor : pointer;
+	padding: 10px;
+	background-color: red;
+}
+
+
+
